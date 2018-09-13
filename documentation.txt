@@ -1,0 +1,23 @@
+Rock Paper Scissors (Taþ,kaðýt makas oyunu.)
+
+---Burada basitçe yapýyý anlatmak gerekirse kullanýcý resimlerden birine týklayarak bir seçim yapar ayný anda bilgisayarda bir seçim yapar.
+Yapilan seçimlere göre kimin kazanýp kazanmadýðý belirlenir. Ardýndan baþlangýç deðerleri 0-0 olan skorboarda yazýlýr.
+Beraberlik durumunda iki haneye de bir sayý yazýlýr. 
+
+---Resimlere sýrasýyla bakarsak bu oyunda saðdan sola giderken hep ben kazanýyorum, yani ben makas rakip kaðýt seçerse ,ben kaðýt rakip taþ 
+seçerse yada ben taþ rakip makas seçerse ben hep kazanmýþ olurum.Yine ayný þekilde soldan saða giderken hep kaybediyorum.
+Bu algoritmadan faydalanmak için ---  var items=['Rock','Paper','Scýssors']; ---  dizisini oluþturdum.
+Burada "rock"- 0 , "Paper" - 1 ,"Scýssors" - 2 'ye karþýlýk geliyor.
+Resimlere týklayýnca sayýsal deðerler fonksiyona parametre olarak gidiyor ve seçimimizi yapmýþ oluyoruz.
+Burada bilgisayarda random 0,1,2 arasýnda bir sayý seçerek kendi seçimini yapmýþ oluyor.
+Burada sonucu bir sayýsal deðere dökmek için benim seçimimden bilgisayarýn seçimini çýkartacaðýz ve mod alacaðýz. (me - you)
+Burada mod iþlemi kullanmamýzýn sebebi dairesel bir yapýnýn olmasýdýr (%3 - 3 adet seçenek var).
+Yukarýdaki algoritmaya bakarsak benim kazanç olduðum durumlarda; (2-1=1),(1-0=1),((0-2=-2) %3 =1) sonuç hep 1 çýkýyor.
+Kayýp durumlarýnda ise 2 çýkýyor (1-2=-1 -1%3=2 ). Ýki tarafta ayný þeyi seçerse 0 çýkar.
+Çýkan bu 0 - DRAW , 1 - WON ,2 - LOSE durumuna göre scoreboard da ki sayýlar güncellenmiþtir.
+
+Not: Mod operatörü negatif sayýlarda düzgün çalýþmadýðý için o þekilde kullanýlmýþtýr.
+
+								
+								Hüseyin	Kaðan Beken
+								kaganb78@gmail.com

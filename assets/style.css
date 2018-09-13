@@ -1,0 +1,34 @@
+table.table1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    margin: auto;
+    border: 2px solid #999999;
+}
+.table1 td, th {
+    border: 0px solid blue;
+    text-align: center;
+    margin: auto;
+}
+.table2 td, th :hover{
+    background-color: #333333;
+}
+table.table2 {
+    margin: auto;
+}
+
+body {
+    background-color: #222222;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2{
+  font-family: Georgia, "Times New Roman", Times, serif;
+         font-size:30px;
+
+  text-align: center;
+         font-weight: bold;
+         color: #ffffff;
+
+}
